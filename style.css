@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5256ad;
+
+}
+
+.wrapper {
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    width: 370px;
+    background: #fff;
+    padding: 25px;
+}
+
+.wrapper header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.wrapper form {
+    margin: 35px 0 20px;
+}
+
+form .row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form .row label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+form :where(textarea, select, button) {
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+form .row textarea {
+    resize: none;
+    height: 110px;
+    font-size: 15px;
+    padding: 8px 10px;
+    border: 1px solid #999;
+}
+form .row .outer{
+    height: 47px;
+    border: 1px solid #999;
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+form .row select{
+    font-size: 14px;
+}
+form button {
+    height: 52px;
+    margin-top: 10px;
+    background: #5256ad;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer ;
+
+
+}
